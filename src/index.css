@@ -8,6 +8,13 @@
     .nav {
         @apply px-2 font-thin;
     }
+    .title {
+        @apply font-semibold text-2xl md:text-4xl;
+    }
+    .education {
+        @apply border border-gray-600 p-4 w-full rounded-lg shadow-2xl;
+    }
+    
 }
  
 @theme {

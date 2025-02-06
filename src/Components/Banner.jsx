@@ -1,15 +1,13 @@
-import profile from "../assets/profile-pic.png";
+import { MdEmail } from "react-icons/md";
 import { useTypewriter } from "react-simple-typewriter";
+import coder from "../assets/lottie/coder.json";
+import Lottie from "lottie-react";
+import { motion } from 'framer-motion';
 
 const Banner = () => {
   const [text] = useTypewriter({
-    words: [
-      "Front-End Visionary",
-      "ReactJS Specialist",
-      "ReactJS Wizard",
-    ],
+    words: ["Front-End Visionary", "ReactJS Specialist", "ReactJS Wizard"],
     loop: 0,
-    
   });
   return (
     <div
@@ -17,22 +15,32 @@ const Banner = () => {
       className="p-2 flex gap-4 flex-col justify-center items-center py-8 md:min-h-[500px] lg:min-h-[600px]"
     >
       <div className="flex flex-col lg:flex-row justify-center items-center p-6">
-        <div className="w-full flex justify-center lg:w-1/3">
-          <img
-            className="max-w-[250px] md:max-w-[300px]"
-            src={profile}
-            alt="mine-photo"
-          />
+        <div className="order-1 lg:order-2 w-full flex justify-center lg:w-2/5">
+          <Lottie className="" animationData={coder}></Lottie>
         </div>
-        <div className="w-full p-2 lg:w-2/3 space-y-2">
+        <div className="order-2 lg:order-1 w-full p-2 lg:w-3/5 space-y-2">
           <h2 className="font-semibold text-lg">Welcome to My Digital Space</h2>
           <p className="text-2xl md:text-4xl font-semibold">{text}_</p>
           <p className="">
-            I'm Rupon Mia, a passionate web developer skilled in JavaScript,
-            ReactJS, and Tailwind CSS. I create visually stunning and responsive
-            websites, turning innovative ideas into seamless digital
-            experiences.
+            Passionate about building sleek, responsive, and high-performing web applications with ReactJS and Tailwind CSS.
           </p>
+          <motion.button
+              id="projects"
+              className="px-3 py-1 bg-sky-900/50 backdrop-blur-md border hover:cursor-pointer flex gap-2 items-center justify-center"
+              whileHover={{
+                scale: 1.03,
+                rotate: 0,
+                
+              }}
+              whileTap={{ scale: 0.98 }}
+              transition={{ type: "spring", stiffness: 300, damping: 20 }}
+            >
+              <h3>
+                Contact
+              </h3>
+              <MdEmail />
+            
+            </motion.button>
         </div>
       </div>
     </div>
