@@ -3,9 +3,10 @@
 
 @layer components {
     .bmeasure {
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0.5rem;
+         @apply mx-auto p-2;
+    }
+    .nav {
+        @apply px-2 font-thin;
     }
 }
  
