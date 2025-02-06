@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@layer components {
+    .bmeasure {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.5rem;
+    }
+}
+ 
+@theme {
+    --color-bg: #030707;
+    --color-text: #dcf4f2;
+}
