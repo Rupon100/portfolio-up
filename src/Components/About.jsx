@@ -1,10 +1,22 @@
 import profile from "../assets/profile-pic.png";
+import { motion } from 'framer-motion';
 const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col justify-center items-center gap-4 border md:min-h-[500px] lg:min-h-[600px]"
+      className="relative flex flex-col justify-center items-center gap-4 md:min-h-[500px] lg:min-h-[600px] overflow-hidden"
     >
+      <motion.div 
+        className="absolute z-1 w-12 h-12 rounded-2xl bg-text bottom-0 right-0 blur-3xl"
+        animate={{ scale: [1, 1.3, 1] }}
+        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+      ></motion.div>
+
+      <motion.div 
+        className="absolute z-1 w-12 h-12 rounded-2xl bg-text top-0 left-0 blur-3xl"
+        animate={{ scale: [1, 1.3, 1], opacity: [1, 1.3, 1] }}
+        transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
+      ></motion.div>
         <div className="flex flex-col text-center gap-2" >
           <h2 className="title">About Me</h2>
           <small className="text-sm" >Code. Create. Innovate.</small>

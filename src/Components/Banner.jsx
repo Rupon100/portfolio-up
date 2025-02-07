@@ -1,11 +1,10 @@
-// import { AwesomeButtonShare } from "react-awesome-button";
 import { MdEmail } from "react-icons/md";
 import { useTypewriter } from "react-simple-typewriter";
 import coder from "../assets/lottie/coder.json";
 import Lottie from "lottie-react";
 import { motion } from "framer-motion";
-// import "react-awesome-button/dist/styles.css";
-// import { AwesomeButtonShare } from 'react-awesome-button';
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Banner = () => {
   const [text] = useTypewriter({
@@ -28,9 +27,17 @@ const Banner = () => {
             Passionate about building sleek, responsive, and high-performing web
             applications with ReactJS and Tailwind CSS.
           </p>
-          <div className="flex gap-2">
+          <div className="flex flex-row gap-2">
             <motion.button
-              id="projects"
+              onClick={() => {
+                const contactSection = document.getElementById("contact");
+                if (contactSection) {
+                  contactSection.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                  });
+                }
+              }}
               className="px-3 py-1 bg-sky-900/50 backdrop-blur-md border hover:cursor-pointer flex gap-2 items-center justify-center"
               whileHover={{
                 scale: 1.03,
@@ -42,19 +49,10 @@ const Banner = () => {
               <h3>Contact</h3>
               <MdEmail />
             </motion.button>
-            <div>
-              {/* <AwesomeButtonShare
-                type="github"
-                href="https://github.com/Rupon100"
-              >
-                GitHub
-              </AwesomeButtonShare>
-              <AwesomeButtonShare
-                type="linkedin"
-                href="https://www.linkedin.com/in/rupon-mia-757b58266/"
-              >
-                LinkedIn
-              </AwesomeButtonShare> */}
+
+            <div className="flex items-center gap-2" >
+              <a  href="https://github.com/Rupon100" className="flex items-center gap-2 border p-2 bg-sky-900/50 hover:bg-sky-900/20 backdrop-blur-md transition-all cursor-pointer" ><span>Github</span> <FaGithub /> </a>
+              <a href="https://www.linkedin.com/in/rupon-mia-757b58266/" className="flex items-center gap-2 border p-2 bg-sky-900/50 hover:bg-sky-900/20 backdrop-blur-md transition-all cursor-pointer" ><span>Linkedin </span><FaLinkedinIn /></a>
             </div>
           </div>
         </div>
