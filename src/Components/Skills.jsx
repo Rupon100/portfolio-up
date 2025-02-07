@@ -14,7 +14,7 @@ import Marquee from "react-fast-marquee";
 
 const Skills = () => {
   return (
-    <div className="p-2 text-center flex flex-col justify-center items-center gap-6">
+    <div className="p-2 text-center flex flex-col justify-center items-center gap-6 overflow-hidden">
       <h2 className="title">My Tech Arsenal</h2>
       <div className="space-y-6 mt-4" >
         <Marquee speed={50} pauseOnHover={true} className="" >
