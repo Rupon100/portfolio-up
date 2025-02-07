@@ -32,7 +32,7 @@
         "img": "https://i.ibb.co.com/TMrgJdZb/eco-wander.png",
         "live": "https://ecowander-5244c.web.app",
         "repo": "https://github.com/Rupon100/EcoWander",
-        "challenges": "",
-        "improvements": ""
+        "challenges": "Ensuring secure authentication with Firebase while managing private routes and password recovery is a key challenge. The Swiper banner must be optimized for smooth performance, with properly linked navigation. Restricting adventure access for unauthenticated users while maintaining engagement adds complexity. Integrating Google Meet for expert consultations within fixed hours (10 AM - 8 PM) requires real-time availability checks. Lastly, implementing dynamic page titles enhances SEO and user experience.",
+        "improvements": "Enhance security with role-based authentication and JWT integration. Add a wishlist feature for saving adventures and enable real-time chat with experts. Improve the Talk to Expert feature with an appointment system. Boost SEO with dynamic metadata and optimize performance using lazy loading."
     }
 ]
