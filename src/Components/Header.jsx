@@ -30,7 +30,7 @@ const Header = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:block relative">
             <ul className="flex items-center gap-4 relative">
-              {[ "home","about", "projects", "education", "contact"].map((item) => (
+              {[ "home","about", "education", "projects", "contact"].map((item) => (
                 <li
                   key={item}
                   className="relative px-4 py-2 cursor-pointer transition-all duration-300 text-sm"

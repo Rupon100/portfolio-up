@@ -1,0 +1,38 @@
+[
+    {
+        "id": "101",
+        "name": "Chattrix",
+        "img": "https://i.ibb.co.com/XZdSdLd8/fiverr-port1.png",
+        "live": "https://chattrix-8cdf5.web.app/",
+        "repo": "https://github.com/Rupon100/Chattrix-Client",
+        "challenges": "Handling authentication, user roles, and dynamic interactions was challenging. Integrating the payment system was my first attempt but was completed in two days. Pagination and backend aggregation were tricky, requiring optimization and debugging. Managing admin functionalities like reports and announcements also needed a secure approach. Overcoming these challenges enhanced my backend skills and problem-solving abilities.",
+        "improvements": "Enhance the payment system with multiple gateways and subscription plans. Optimize backend aggregation for better performance and scalability. Improve pagination with infinite scrolling for a smoother user experience. Add real-time notifications for comments, votes, and reports. Implement role-based access control for better security. Enhance search with AI-powered recommendations and filtering options. Introduce post-scheduling and draft-saving features for users. Optimize admin tools with bulk actions and analytics for better management."
+    },
+    {
+        "id": "102",
+        "name": "Reelora",
+        "img": "https://i.ibb.co.com/vx0w8Vsg/relora1.png",
+        "live": "https://reelora-83735.web.app",
+        "repo": "https://github.com/Rupon100/Reelora-Client",
+        "challenges": "Handling authentication, role-based navigation, and movie features like pagination was challenging. Managing the loading state was difficult initially, but after researching on Google, I fixed it and later improved data fetching with useAxios. Optimizing routing and enhancing user experience with AI-powered search and saved theme preferences also required fine-tuning.",
+        "improvements": "Enhancing authentication with multi-factor security and a role-based navbar. Improving movie features with pagination, upvote/downvote ratings, and a bookmark system. Optimizing routing with breadcrumb navigation, lazy loading, and smooth animations. Upgrading the home page with personalized recommendations, trending sections, and live rating updates. Enhancing user experience with AI-powered search, saved dark/light mode preferences, and customizable UI themes."
+    },
+    {
+        "id": "103",
+        "name": "Judgify",
+        "img": "https://i.ibb.co.com/7tPQG3vR/judgify.png",
+        "live": "https://assign-11-2c38d.web.app/",
+        "repo": "https://github.com/Rupon100/Judgify-client",
+        "challenges": "Implementing a scroll-triggered count-up animation, infinite scrolling, and lazy loading for performance. Managing real-time review updates, interactive ratings, and secure authentication. Ensuring efficient filtering, confirmation popups, and a dark mode toggle for better usability.",
+        "improvements": "To enhance usability, pagination can be added as an alternative to infinite scrolling, providing better control over content navigation. A review upvote/downvote system will help highlight the most helpful feedback. Improving accessibility with keyboard navigation ensures a smoother experience for all users. Optimizing the search feature with real-time suggestions will make finding services and reviews more efficient. UI enhancements with better animations and transitions can create a more engaging experience. Additionally, implementing a bookmark or favorite feature will allow users to save services for easy access. Multi-language support can also be introduced to make the platform accessible to a wider audience."
+    },
+    {
+        "id": "104",
+        "name": "EcoWander",
+        "img": "https://i.ibb.co.com/TMrgJdZb/eco-wander.png",
+        "live": "https://ecowander-5244c.web.app",
+        "repo": "https://github.com/Rupon100/EcoWander",
+        "challenges": "",
+        "improvements": ""
+    }
+]

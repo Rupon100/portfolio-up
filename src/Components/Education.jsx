@@ -1,6 +1,6 @@
 const Education = () => {
   return (
-    <div className="p-4 text-center flex gap-6 flex-col justify-center items-center">
+    <div id="education" className="p-4 text-center flex gap-6 flex-col justify-center items-center">
       <h2 className="title">Academic Background</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-2 w-full">
         <div className="relative education text-left space-y-2 bg-sky-200/10">
